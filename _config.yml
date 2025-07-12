@@ -79,8 +79,8 @@ algolia:
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id       : 61d4efc266cd244b2
+  instant_search         : true
 # SEO Related
 google_site_verification : i2fMi8q8bAo55VAOim18yzQGzau9yTHyxPtbsIGSGS0
 bing_site_verification   :
@@ -136,7 +136,7 @@ author:
       url: "https://github.com/mimsuhong"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/suhongmim"
+      #url: "https://instagram.com/suhongmim"
 
 # Site Footer
 footer:
@@ -158,7 +158,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/suhongmim"
+      #url: "https://instagram.com/suhongmim"
   since: "2025"
 
 
@@ -321,7 +321,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      read_time: false
+      comments: #true
+      share: #true
+      related: #true
+      sidebar_main: true

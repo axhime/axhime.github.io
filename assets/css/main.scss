@@ -7,3 +7,49 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+code, pre {
+  font-family: 'Fira Code', monospace;
+}
+
+.page__taxonomy > span[itemprop="keywords"] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.page__taxonomy-item-category,
+.page__taxonomy-item-tag {
+  background: #f3f3f3;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.page__taxonomy .sep {
+  display: none; /* 중간 공백 span 제거 */
+}
+
+.page__taxonomy > span[itemprop="keywords"] {
+  display: flex;
+  flex-wrap: nowrap;  // 줄바꿈 막기
+  gap: 0.5rem;
+  overflow-x: auto;   // 내용이 넘치면 가로 스크롤
+}
+
+.archive__item {
+  margin-bottom: 0.4rem;
+}
+
+.post-taxonomy {
+  margin-top: 0.6rem;
+}
