@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "민수홍 블로그"
+title                    : "이상한것 올리는 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "민수홍"
@@ -79,10 +79,10 @@ algolia:
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : 61d4efc266cd244b2
+  search_engine_id       : c19015579f3164e4d
   instant_search         : true
 # SEO Related
-google_site_verification : i2fMi8q8bAo55VAOim18yzQGzau9yTHyxPtbsIGSGS0
+google_site_verification : E4PImXsCj1glrzn1kWbffHlqXSZJGTFlFsZJ3PqZJes
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
